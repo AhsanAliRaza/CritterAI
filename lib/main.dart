@@ -4,7 +4,6 @@ import 'package:provider/provider.dart';
 import 'package:wildai/Provider/RandomFactProvider/randomFactProvider.dart';
 import 'Helper/helper.dart';
 import 'Provider/HelpingProvider/helpingProvider.dart';
-import 'Views/HomeScreen/homeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -43,7 +42,7 @@ class MyApp extends StatelessWidget {
           hideNavigationBarWhenKeyboardAppears: true,
           popBehaviorOnSelectedNavBarItemPress: PopBehavior.all,
           padding: const EdgeInsets.only(top: 8),
-          backgroundColor: Color(0xffFFF3E0),
+          backgroundColor: const Color(0xffFFF3E0),
           isVisible: true,
           animationSettings: const NavBarAnimationSettings(
             navBarItemAnimation: ItemAnimationSettings(
